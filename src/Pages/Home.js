@@ -16,8 +16,8 @@ function Home() {
     <div>
       <NavBar />
       <div className='overlay'>
-        <Carousel/>
-        <div 
+        <Carousel />
+        <div
           className='bottom-left'
           style={{ position: 'absolute', top: '30%', left: '50%', transform: 'translate(-50%, -50%)', color: 'white' }}
         >
@@ -37,7 +37,7 @@ function Home() {
                 <h2 className='fw-bold'>1200+</h2>
                 <p className='fs-5'>Tours</p>
               </Col>
-              <Col> 
+              <Col>
                 <h2 className='fw-bold'>800+</h2>
                 <p className='fs-5'>Happy Clients</p>
               </Col>
@@ -52,11 +52,11 @@ function Home() {
             <Form onSubmit={handleSearch}>
               <div className="fw-bold fs-5 flex-wrap text-white py-1">Where you want to go?</div>
               <div className="d-flex gap-3 align-items-center">
-                
+
                 <InputGroup className="flex-grow-1">
                   <Form.Control type='text' placeholder="Where to go" />
                 </InputGroup>
-                
+
                 <InputGroup className="flex-grow-1">
                   <Form.Control type='date' />
                 </InputGroup>
@@ -66,9 +66,9 @@ function Home() {
                     Select a category
                   </Dropdown.Toggle>
                   <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                    <Dropdown.Item href="/">Action</Dropdown.Item>
+                    <Dropdown.Item href="#">Another action</Dropdown.Item>
+                    <Dropdown.Item href="#">Something else</Dropdown.Item>
                   </Dropdown.Menu>
                 </Dropdown>
 
@@ -82,7 +82,7 @@ function Home() {
       </div>
 
       <div className='container'>
-        <p className='text-center' style={{fontSize: '38px', fontWeight: 'bold'}}>
+        <p className='text-center' style={{ fontSize: '38px', fontWeight: 'bold' }}>
           Popular Destination
         </p>
         <p className='text-center fs-5'>
@@ -90,7 +90,7 @@ function Home() {
           <p>randomised booth anim 8-bit hella wolf moon beard words.</p>
         </p>
       </div>
-      <Image/>
+      <Image />
     </div>
   );
 }

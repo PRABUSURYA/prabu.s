@@ -1,9 +1,11 @@
 import Card from 'react-bootstrap/Card';
-import im1 from '../assert/is1.jpg'
+import im1 from '../assert/is3.jpg'
 
 function Image() {
   return (
-    <Card className="bg-dark text-white" style={{ width: '400px' }} >
+    <div>
+      <div className='d-flex justify-content-center align-items-center'>
+    <Card className="bg-dark text-white" style={{ border:'0', width: '400px', }} >
       <Card.Img src={im1} alt="Card image" />
       <Card.ImgOverlay>
         <Card.Title>Card title</Card.Title>
@@ -13,6 +15,8 @@ function Image() {
         <Card.Text>3 mins ago</Card.Text>
       </Card.ImgOverlay>
     </Card>
+    </div>
+    </div>
   );
 }
 
