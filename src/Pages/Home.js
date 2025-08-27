@@ -16,7 +16,7 @@ function Home() {
     <div>
       <NavBar />
       <div className='overlay'>
-        <Carousel />
+        <Carousel/>
         <div 
           className='bottom-left'
           style={{ position: 'absolute', top: '30%', left: '50%', transform: 'translate(-50%, -50%)', color: 'white' }}
